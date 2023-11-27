@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+ 
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tourism Ticket Booking</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            padding: 0;
+
+            background-color: #f4f4f4;
+
+        }
+
+ 
+
+        header {
+
+            background-color:rgba(26, 63, 214, 0.662);
+
+            color: #fff;
+
+            text-align: center;
+
+            padding: 1em;
+
+        }
+
+ 
+
+        nav {
+
+            background-color:rgba(26, 63, 214, 0.662);
+
+            overflow: hidden;
+
+        }
+
+ 
+
+        nav a {
+
+            float: left;
+
+            display: block;
+
+            color: #f2f2f2;
+
+            text-align: center;
+
+            padding: 14px 16px;
+
+            text-decoration: none;
+
+        }
+
+ 
+
+        .container {
+
+            width: 80%;
+
+            margin: 20px auto;
+
+            background-color: #fff;
+
+            padding: 20px;
+
+            border-radius: 10px;
+
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        }
+
+ 
+
+        label {
+
+            display: block;
+
+            margin-bottom: 8px;
+
+        }
+
+ 
+
+        input,
+
+        select,
+
+        textarea {
+
+            width: 100%;
+
+            padding: 8px;
+
+            margin-bottom: 15px;
+
+            box-sizing: border-box;
+
+        }
+
+ 
+
+        button {
+
+            background-color: #4caf50;
+
+            color: #fff;
+
+            padding: 10px 15px;
+
+            border: none;
+
+            border-radius: 5px;
+
+            cursor: pointer;
+
+        }
+
+ 
+
+        #map {
+
+            height: 300px;
+
+            margin-top: 20px;
+
+        }
+
+    </style>
+
+</head>
+
+ 
+
+<body>
+
+ 
+
+    <header>
+
+        <h1>Tourism Ticket Booking</h1>
+
+    </header>
+
+ 
+
+    <nav>
+
+        <a href="#">Home</a>
+
+        <a href="#">Book Now</a>
+
+        <a href="#">Contact</a>
+
+        <a href="#">Email Address : tourismtrip@gmail.com</a>
+
+    </nav>
+
+   
+
+    <div class="container">
+
+        <h2>Contact Us</h2>
+
+        <p>Have questions or need assistance? Feel free to reach out!</p>
+
+ 
+
+        <form id="contactForm">
+
+            <label for="name">First Name:</label>
+
+            <input type="text" id="name" name="name" required>
+
+            <label for="name">Middle name:</label>
+
+<input type="text" id="name" name="name" required>
+
+<label for="name">last Name:</label>
+
+<input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+
+            <input type="email" id="email" name="email" required>
+
+ 
+
+            <label for="message">Message:</label>
+
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+<label for="complaints">Complaints:</label>
+
+<textarea id="complaint" name="message" rows="2" required></textarea>
+
+<label for="suggestion">Suggestion:</label>
+
+<textarea id="suggestion" name="suggestion" rows="3" required></textarea>
+
+            <button type="button" onclick="submitContactForm()">Send Message</button>
+
+        </form>
+
+ 
+
+        <div id="map">
+
+            <!-- You can embed a map or any other location-related content here -->
+
+            <!-- Example: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3222.854654655454!2d-122.08467138472968!3d37.422701979822175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808a21c046df%3A0x9b9ed508a32f0ef5!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1622660841825!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+
+        </div>
+
+    </div>
+
+ 
+
+    <script>
+
+        function submitContactForm() {
+
+            // You can add logic here to handle the form submission, e.g., sending data to a server.
+
+            alert("Message Sent! We'll get back to you soon.");
+
+        }
+
+    </script>
+
+ 
+
+</body>
+
+ 
+
+</html>
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+ 
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tourism Ticket Booking</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            padding: 0;
+
+            background-color: #f4f4f4;
+
+        }
+
+ 
+
+        header {
+
+            background-color:rgba(26, 195, 214, 0.662);
+
+            color: #fff;
+
+            text-align: center;
+
+            padding: 1em;
+
+        }
+
+ 
+
+        .container {
+
+            width: 80%;
+
+            margin: 20px auto;
+
+            background-color: #fff;
+
+            padding: 20px;
+
+            border-radius: 10px;
+
+            box-shadow: 0 0 10px rgba(26, 195, 214, 0.662);
+
+        }
+
+ 
+
+        label {
+
+            display: block;
+
+            margin-bottom: 8px;
+
+        }
+
+ 
+
+        input,
+
+        select {
+
+            width: 100%;
+
+            padding: 8px;
+
+            margin-bottom: 15px;
+
+            box-sizing: border-box;
+
+        }
+
+ 
+
+        button {
+
+            background-color: #4caf50;
+
+            color: #fff;
+
+            padding: 10px 15px;
+
+            border: none;
+
+            border-radius: 5px;
+
+            cursor: pointer;
+
+        }
+
+    </style>
+
+</head>
+
+</html>
+
+ 

@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charaset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="trainstyle.css">
+
+        <title>Train Booking</title>
+
+    </head>
+
+    <body>
+
+        <img  src="trainimg.png" width=1000px; height=680px;/> </img>
+
+        <div class="container">
+
+            <h1>Train Booking</h1>
+
+            <form id="bookingForm">
+
+                <label for="trainName">Train Name:</label>
+
+                <input type="text" id="trainName" required>
+
+                <label for="departureDate">Departure Date:</label>
+
+                <input type="date" id="departureDate" required>
+
+                <label for="passengerName">Passenger Name:</label>
+
+                <input type="text" id="passengerName" required>
+
+                <button type="button" onclick="bookTrain()">Book Now</button>
+
+            </form>
+
+         
+
+            <div id="bookingResult"></div>
+
+        </div>
+
+       
+
+        <script src="trainjava.js"></script>
+
+       
+
+        </body>
+
+        </html>

@@ -1,0 +1,30 @@
+img{
+
+    background-size: cover;
+
+    width:1260px;
+
+    height: 700px;
+
+}
+
+/* Style the tab */
+
+.tab{
+
+ right: -1px;
+
+  position: absolute;
+
+bottom: 250px;
+
+   
+
+}
+
+h2{
+
+  color:rgb(222, 107, 13)
+
+}
+

@@ -1,0 +1,106 @@
+body{
+
+    background-size: cover;
+
+    font-family: Arial, sans-serif;
+
+    Margin: 0;
+
+    Padding:0;
+
+ 
+
+}
+
+header{
+
+    background-color: rgb(37, 178, 217);
+
+    color: White;
+
+    padding: 1em;
+
+    text-align: center;
+
+}
+
+ 
+
+  /* Bottom left text */
+
+.message {
+
+    position: absolute;
+
+    top: 105px;
+
+    left:2%;
+
+    transform: translate(50%, 50%);
+
+font-family: Cursive;
+
+color:darkgreen;
+
+  }
+
+  .Booking {
+
+    position: absolute;
+
+    top: 500px;
+
+    left:40%;
+
+    transform: translate(50%, 50%);
+
+color:crimson;
+
+  }
+
+ 
+
+.line{
+
+  position:relative;
+
+  top: 450px;
+
+ left: 520px;
+
+  color:rgb(130, 4, 29);
+
+  font-size: x-large;
+
+  font-family: 'italic';
+
+ 
+
+}
+
+  img{
+
+ 
+
+    width: 1500px;
+
+    height: 450px;
+  }
+
+footer{
+
+    background-color: rgb(37, 178, 217);
+
+    color: White;
+
+    text-align: center;
+
+    padding:1em;
+
+    position: absolute;
+
+    bottom:0;
+
+    width:98%;
+
+}
